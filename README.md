@@ -3,7 +3,7 @@ The AXIS FIFO is one of the important data structure that is used in ethernet ba
 The AXIS FIFO is Synchronous hence it have low latency that is useful for ehternet based communication.
 The AXIS prtocol also poular among the AXI-LITE, AXI-Memory mapped because of efficent trasnfer logic and low latency as compared to others.
 # Problem Statement : 
-Design a FIFO using AXIS interface for ehternet communication to transmit the data to data buffer.
+Design a FIFO using AXIS interface for ethernet communication to transmit the data to data buffer without waiting the tvalid high.
 Also write the testbench code in verilog.
 
 # Consideration :- The first consideration is that :
